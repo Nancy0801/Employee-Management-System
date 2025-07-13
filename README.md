@@ -66,12 +66,17 @@ USE employee_db;
 - Create the employees table:
 ```sql
 CREATE TABLE employees (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    email VARCHAR(100),
-    phone VARCHAR(20),
-    department VARCHAR(50),
-    salary DECIMAL(10,2)
+    name varchar(40),
+    fname varchar(40),
+    email varchar(40),
+    dob varchar(40),
+    Salary varchar(40),
+    Address varchar(40),
+    Designation varchar(40),
+    Aadhar varchar(40),
+    phone varchar(40),
+    education varchar(40),
+    empID varchar(40),
 );
 ```
 
@@ -94,9 +99,9 @@ Admin Login
      ↓
 Dashboard with Options
      ↓
- ┌────────────┬────────────┬────────────┬─────────────┐
- │  Add       │  View      │  Update    │  Delete     │
- └────────────┴────────────┴────────────┴─────────────┘
+ ┌────────────┬────────────┬────────────┬
+ │  Add       │  View      │  Delete    │
+ └────────────┴────────────┴────────────┴
      ↓
 Print Employee Information (optional)
 ```
