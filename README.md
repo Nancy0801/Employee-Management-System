@@ -42,7 +42,7 @@ This project demonstrates practical implementation of **Object-Oriented Programm
 - Java JDK 8 or above
 - MySQL Server
 - MySQL Workbench (optional for GUI access)
-- IDE (Eclipse / IntelliJ IDEA / NetBeans)
+- IDE (Eclipse / IntelliJ IDEA / NetBeans / VSCode)
 - JDBC Connector for MySQL
 
 ---
